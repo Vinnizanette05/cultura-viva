@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Cultura Viva: descubra livros, filmes, músicas e eventos culturais.">
+  <title>Cultura Viva | Catálogo Cultural</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="topo">
+    <a href="#inicio" class="logo">CULTURA<span>VIVA.</span></a>
+    <nav aria-label="Navegação principal">
+      <a href="#inicio">Início</a><a href="#catalogo">Catálogo</a>
+      <a href="#sobre">Sobre</a><a href="#sugestao">Colabore</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="hero-conteudo">
+        <span class="etiqueta">CULTURA PARA TODOS</span>
+        <h1>Descubra novas<br> formas de <span>cultura.</span></h1>
+        <p>Explore livros, filmes, músicas e eventos. Compartilhe descobertas e ajude a construir um espaço cultural colaborativo.</p>
+        <a href="#catalogo" class="botao">Explorar catálogo</a>
+      </div>
+    </section>
+
+    <section class="catalogo" id="catalogo">
+      <div class="titulo-secao">
+        <span class="etiqueta">EXPLORE</span>
+        <h2>Nosso catálogo cultural</h2>
+        <p>Encontre algo novo para conhecer e apreciar.</p>
+      </div>
+      <div class="filtros">
+        <input type="search" id="pesquisa" placeholder="Pesquisar conteúdo..." aria-label="Pesquisar conteúdo cultural">
+        <select id="categoria" aria-label="Filtrar por categoria">
+          <option value="todos">Todas as categorias</option>
+          <option value="literatura">Literatura</option>
+          <option value="cinema">Cinema</option>
+          <option value="musica">Música</option>
+          <option value="arte">Arte e eventos</option>
+        </select>
+      </div>
+      <div class="cards" id="lista-catalogo" aria-live="polite"></div>
+    </section>
+
+    <section class="sobre" id="sobre">
+      <div><span class="etiqueta">NOSSA MISSÃO</span><h2>A cultura cresce quando é compartilhada.</h2></div>
+      <p>O Cultura Viva nasceu com o propósito de aproximar pessoas de diferentes manifestações culturais. Nosso catálogo reúne sugestões e descobertas que podem inspirar, ensinar e transformar.</p>
+    </section>
+
+    <section class="sugestao" id="sugestao">
+      <div class="titulo-secao">
+        <span class="etiqueta">FAÇA PARTE</span><h2>Compartilhe sua descoberta</h2>
+        <p>Conhece um livro, filme, música ou evento interessante? Envie sua sugestão para o catálogo.</p>
+      </div>
+      <form id="form-sugestao">
+        <label for="nome">Seu nome</label><input type="text" id="nome" required placeholder="Digite seu nome">
+        <label for="titulo">Nome da indicação</label><input type="text" id="titulo" required placeholder="Ex.: nome de um livro">
+        <label for="tipo">Categoria</label>
+        <select id="tipo" required>
+          <option value="">Selecione</option><option value="literatura">Literatura</option>
+          <option value="cinema">Cinema</option><option value="musica">Música</option><option value="arte">Arte e eventos</option>
+        </select>
+        <label for="descricao">Por que você recomenda?</label>
+        <textarea id="descricao" rows="4" required placeholder="Conte um pouco sobre sua indicação"></textarea>
+        <button type="submit" class="botao">Enviar sugestão</button>
+        <p id="mensagem" role="status"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <a href="#inicio" class="logo">CULTURA<span>VIVA.</span></a>
+    <p>Projeto acadêmico – Desenvolvimento Front-end para Web.</p>
+    <p>© 2026 Cultura Viva. Todos os direitos reservados.</p>
+  </footer>
+  <script src="js/script.js"></script>
+</body>
+</html>
