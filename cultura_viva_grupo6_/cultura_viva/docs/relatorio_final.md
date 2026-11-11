@@ -5,7 +5,7 @@
 **Grupo:** 6  
 **Tema:** Catálogo Cultural Colaborativo
 
-## 1. Introdução
+## 1. Introdução.
 
 O projeto Cultura Viva consiste em um catálogo cultural colaborativo desenvolvido para apresentar conteúdos de diferentes áreas, como literatura, cinema, música e arte. A página busca organizar indicações culturais de maneira visual e facilitar a descoberta de novos conteúdos.
 
