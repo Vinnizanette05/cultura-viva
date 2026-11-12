@@ -1,0 +1,11 @@
+RELATÓRIO – PROJETO CULTURA VIVA
+
+O projeto Cultura Viva foi desenvolvido como um catálogo cultural colaborativo, com o objetivo de reunir indicações de livros, cinema, música e outras manifestações culturais em uma página simples de navegar.
+
+A estrutura utiliza HTML5 semântico, com cabeçalho, navegação, conteúdo principal dividido em seções e rodapé. O catálogo é montado com JavaScript e apresenta cards com imagens, títulos e descrições. A pesquisa por texto e o filtro por categoria permitem localizar conteúdos com facilidade.
+
+Na parte visual, foi utilizado CSS externo, com cores escuras no cabeçalho e no rodapé, detalhes em tom alaranjado e cartões claros para destacar as informações. O layout utiliza CSS Grid e Flexbox e possui ajustes para telas menores, como celulares.
+
+O formulário permite que o visitante envie uma sugestão preenchendo nome, título, categoria e descrição. Nesta versão acadêmica, o JavaScript apresenta uma confirmação na própria página; os dados não são enviados para um servidor.
+
+As imagens do catálogo estão armazenadas na pasta img, separadas por tema. A organização do projeto em arquivos HTML, CSS, JavaScript e imagens facilita a manutenção e a compreensão do código.
