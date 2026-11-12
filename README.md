@@ -76,5 +76,7 @@ cultura_viva/
 O fluxo de colaboração proposto para o Grupo 6 está descrito em `docs/guia_git_github.md`. Cada integrante pode trabalhar em uma branch própria. Depois, deve abrir um Pull Request para revisão e integração na branch principal.
 
 ## 8. Integrantes
-
-Preencher com os nomes dos integrantes do Grupo 6 antes da entrega.
+    VINICIOS ZANETTE DA CRUZ
+    LUIZ MARIO JOSE SILVA
+    FERNANDO ALVES DA HORA NETO
+    JOAO PEDRO ALVES LIMA
